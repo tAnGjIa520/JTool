@@ -158,7 +158,7 @@ def main():
     parser.add_argument(
         "--token",
         type=str,
-        default="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",
+        default=None,
         help="Hugging Face API token（如果已通过 'huggingface-cli login' 登录则可选）"
     )
 
